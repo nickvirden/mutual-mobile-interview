@@ -1,0 +1,30 @@
+{
+  "name": "wiperecord",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "dotenv": "^4.0.0",
+    "express": "4.14.0",
+    "request": "2.85.0",
+    "request-promise": "4.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chai-http": "^4.0.0",
+    "gulp": "3.9.1",
+    "gulp-connect": "5.0.0",
+    "gulp-clean-css": "3.2.0",
+    "gulp-sass": "3.2.0",
+    "gulp-strip-comments": "2.4.3",
+    "gulp-uglify": "2.1.2",
+    "gulp-usemin": "0.3.28",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha",
+    "test:watch": "mocha --watch"
+  },
+  "engines": {
+    "npm": ">= 5.7.1"
+  }
+}
